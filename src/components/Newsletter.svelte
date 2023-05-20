@@ -65,7 +65,7 @@
 		{#if isNewsletterOpen}
 			<p class="my-1 text-gray-800 dark:text-gray-200">
 				Get emails from me about <span class="font-bold"
-					>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, ducimus.</span
+					>dev tools, productivity hacks, new tech, etc</span
 				>.
 			</p>
 
@@ -81,7 +81,7 @@
 					id="bd-email"
 					name="email"
 					aria-label="Email for newsletter"
-					placeholder="tim@apple.com"
+					placeholder="elon@tesla.com"
 					autocomplete="email"
 					required={true}
 					class="mt-1 block w-full rounded-md border-gray-300 bg-white px-4 py-2 pr-32 text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:bg-gray-800 dark:text-gray-100"
@@ -91,7 +91,7 @@
 				>
 			</form>
 			<p class="text-sm text-gray-800 dark:text-gray-200">
-				5,432 subscribers including my Mom – <a href="/#newsletter">123 issues</a>
+				100+ subscribers including my Mom – <a href="/newsletter">10 issues</a>
 			</p>
 		{/if}
 	</div>

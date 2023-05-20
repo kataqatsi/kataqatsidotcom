@@ -1,5 +1,5 @@
 <script>
-	import { MY_TWITTER_HANDLE, SITE_URL } from '$lib/siteConfig';
+	import { MY_TWITTER_HANDLE, SITE_URL, SITE_DESCRIPTION  } from '$lib/siteConfig';
 	// import Comments from '../../components/Comments.svelte';
 
 	import 'prism-themes/themes/prism-shades-of-purple.min.css';
@@ -58,8 +58,8 @@
 	{#if json.subtitle}
 		<meta property="subtitle" content={json.subtitle} />
 	{/if}
-	<meta name="Description" content={json.description || 'swyxkit blog'} />
-	<meta property="og:description" content={json.description || 'swyxkit blog'} />
+	<meta name="Description" content={json.description || {SITE_DESCRIPTION} } />
+	<meta property="og:description" content={json.description || {SITE_DESCRIPTION} } />
 	<meta name="twitter:card" content={json.image ? 'summary_large_image' : 'summary'} />
 	<meta name="twitter:creator" content={'@' + MY_TWITTER_HANDLE} />
 	<meta name="twitter:title" content={json.title} />
@@ -77,7 +77,7 @@
 	<div
 		class="flex justify-between w-full mt-2 bg border-red sm:items-start md:flex-row md:items-center"
 	>
-		<p class="flex items-center text-sm text-gray-700 dark:text-gray-300">swyx</p>
+		<p class="flex items-center text-sm text-gray-700 dark:text-gray-300">kataqatsi</p>
 		<p class="flex items-center text-sm text-gray-600 dark:text-gray-400">
 			<a href={json.ghMetadata.issueUrl} rel="external noreferrer" class="no-underline" target="_blank">
 				<!-- <span class="mr-4 font-mono text-xs text-gray-700 text-opacity-70 dark:text-gray-300"
@@ -99,7 +99,7 @@
 			Tagged in: 
 			{#each json.tags as tag}
 				<span class="px-1">
-					<a href={`/blog?filter=hashtag-${tag}`}>#{tag}</a>
+					<a href={`/thoughts?filter=hashtag-${tag}`}>#{tag}</a>
 				</span>
 			{/each}
 		</p>

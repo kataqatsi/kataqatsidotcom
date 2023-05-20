@@ -11,7 +11,7 @@
     <Hst.Text bind:value={prefixString} title="prefixString" />
   </svelte:fragment>
 	<Hst.Variant title="group usage">
-		<section class="mb-16 w-full">
+		<section class="mb-16 w-full">	
 			<h3 class="mb-6 text-2xl font-bold tracking-tight text-black dark:text-white md:text-4xl">
 				Featured Posts
 			</h3>
@@ -26,7 +26,7 @@
 			</div>
 			<a
 				class="mt-8 flex h-6 rounded-lg leading-7 text-gray-600 transition-all dark:text-gray-400 dark:hover:text-gray-200"
-				href="/blog"
+				href="/thoughts"
 				>See latest posts<svg
 					xmlns="http://www.w3.org/2000/svg"
 					fill="none"

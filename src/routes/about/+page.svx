@@ -1,11 +1,15 @@
-<script>
-  import Readme from '../../../README.md'
-</script>
+"Just an optimistic dude who likes to code and see goals come to life"
 
-SwyxKit is a blog template meant for frontend developers who want to get a performant, fully featured content site up and running with SvelteKit, Tailwind CSS, and other blog features (listed below).
+I'm currently based out of Phoenix, AZ.
 
-Below is the full README.md you get from the github repo: https://github.com/sw-yx/swyxkit
+Whats with the name <b>kataqatsi</b>?
 
----
+> Well, I feel like it accurately describes me as a person.
+The word <a href="https://en.wikipedia.org/wiki/Kata">kata</a> is a Japanese word (型 or 形) meaning 'form'. 
+It refers to a detailed choreographed pattern of martial arts movements made to be practised alone. 
+The word kata is also <a href="https://github.com/gamontal/awesome-katas">used in programming</a> 
+to refer to a coding challenge that is done every so often keeps one's skills sharp. 
+The word "qatsi" is from the Native American Hopi language and it translates to "life". 
+So together kataqatsi kinda means "life of continuous learning" or something of that nature.
 
-<Readme />
+If you need software help you can contact me <a href="https://www.neqatsi.com/contact">here</a>

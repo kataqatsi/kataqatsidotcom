@@ -10,7 +10,7 @@ import { REPO_URL } from '$lib/siteConfig';
 export async function load({ params, fetch, setHeaders }) {
 	const slug = params.slug;
 	let [pageData, listData] = await Promise.all([
-		fetch(`/api/blog/${slug}.json`),
+		fetch(`/api/thoughts/${slug}.json`),
 		fetch(`/api/listContent.json`)
 	])
 	if (pageData.status > 400) {

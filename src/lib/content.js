@@ -132,7 +132,7 @@ export async function getContent(providedFetch, slug) {
 		console.log('loaded ' + allBlogposts.length + ' blogposts');
 		if (!allBlogposts.length)
 			throw new Error(
-				'failed to load blogposts for some reason. check token' + process.env.GH_TOKEN
+				'failed to load blogposts for some reason. check token ' + process.env.GH_TOKEN
 			);
 	}
 	if (!allBlogposts.length) throw new Error('no blogposts');

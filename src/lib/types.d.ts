@@ -1,5 +1,5 @@
 export type ContentItem = {
-	type: 'blog';
+	type: 'thoughts';
 	content: string;
 	frontmatter: {
 		[key: string]: string;
