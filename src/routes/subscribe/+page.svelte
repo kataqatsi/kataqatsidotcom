@@ -44,6 +44,26 @@
 		</p>
 		<Newsletter />
 	</div>
+	<p>
+		<a class="no-underline" href="https://kataqatsi.com/subscribe"
+			><span
+				class="ml-2 bg-gradient-to-br from-pink-400 to-red-600 bg-clip-text text-xl font-extrabold uppercase text-transparent"
+				>Support my work</span
+			></a
+		>
+	</p>
+	<p>
+		<a
+			href={`https://ko-fi.com/kataqatsi`}
+			target="_blank"
+			rel="noopener noreferrer"
+			>
+			<img
+				src="https://www.ko-fi.com/img/githubbutton_sm.svg"
+				alt="Buy Me a Coffee at ko-fi.com"
+			/>
+		</a>
+	</p>
 </article>
 
 <style>
