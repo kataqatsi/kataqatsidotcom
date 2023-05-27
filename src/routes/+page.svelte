@@ -51,11 +51,12 @@
 				Anderson
 			</h1>
 			<h2 id="bio" class="mb-4 italic text-gray-700 dark:text-gray-200">
-				Inventor, Musician, Programmer
+				Inventor, Technologist, Programmer
 			</h2>
 			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
-				I write code that does neat stuff.. or at least I try. Currently building 
-				<a href="https://involio.com">involio</a>!
+				I write code that does neat stuff.
+				Follow me as I learn in public!
+				Currently building <a href="https://involio.com">involio</a>.
 			</h2>
 			<p class="mb-16 text-gray-600 dark:text-gray-400">
 				<a href="/about">More on About page</a>
