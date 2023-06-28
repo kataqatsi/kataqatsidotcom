@@ -1,8 +1,15 @@
-Hi my name is David, I go by <b>`kataqatsi`</b> online.
+<img
+				class="w-[80px] rounded-full sm:w-[176px] relative mb-8 sm:mb-0 mr-auto bg-cyan-300 bg-opacity-25"
+				src="/pp.jpg" alt="kataqatsi in forest" 
+		
+			/>
+<br>
+
+Hi my name is David, I go by <b>@kataqatsi</b> online.
 
 I'm just an optimistic dude who likes to see goals come to life, usually through code.
 
-I'm currently based out of Phoenix, AZ.
+Currently based out of Phoenix, AZ.
 
 Whats with the name <b>kataqatsi</b>?
 
