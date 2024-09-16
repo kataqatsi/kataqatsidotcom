@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>swyx's Newsletter</title>
+	<title>kataqatsi Newsletter</title>
 	<link rel="alternate" type="application/rss+xml" href="https://kataqatsi.com/rss.xml" />
 	<meta property="og:url" content={'https://kataqatsi.com/subscribe'} />
 	<meta property="og:type" content="article" />
@@ -53,15 +53,8 @@
 		>
 	</p>
 	<p>
-		<a
-			href={`https://ko-fi.com/kataqatsi`}
-			target="_blank"
-			rel="noopener noreferrer"
-			>
-			<img
-				src="https://www.ko-fi.com/img/githubbutton_sm.svg"
-				alt="Buy Me a Coffee at ko-fi.com"
-			/>
+		<a href={`https://ko-fi.com/kataqatsi`} target="_blank" rel="noopener noreferrer">
+			<img src="https://www.ko-fi.com/img/githubbutton_sm.svg" alt="Buy Me a Coffee at ko-fi.com" />
 		</a>
 	</p>
 </article>

@@ -1,4 +1,4 @@
-export const SITE_URL = 'https://kataqatsi.netlify.app';
+export const SITE_URL = 'https://kataqatsi.com';
 export const APPROVED_POSTERS_GH_USERNAME = ['kataqatsi'];
 export const GH_USER_REPO = 'kataqatsi/kataqatsidotcom'; // used for pulling github issues and offering comments
 export const SITE_TITLE = '@kataqatsi';

@@ -5,7 +5,7 @@
 
 	const defaultValue = true;
 	const initialValue = browser
-		? window.localStorage.getItem('isNewsletterOpen') ?? defaultValue
+		? (window.localStorage.getItem('isNewsletterOpen') ?? defaultValue)
 		: defaultValue;
 
 	const isNewsletterOpen = writable(!!initialValue);
@@ -30,7 +30,7 @@
 
 			<button
 				aria-label="Toggle Newsletter CTA"
-				class="flex h-9 w-9  items-center justify-center rounded-lg ring-gray-300 transition-all hover:ring-2"
+				class="flex h-9 w-9 items-center justify-center rounded-lg ring-gray-300 transition-all hover:ring-2"
 				on:click={toggleNewsletter}
 			>
 				{#if isNewsletterOpen}
@@ -74,7 +74,8 @@
 				action="https://buttondown.email/api/emails/embed-subscribe/kataqatsi"
 				method="post"
 				target="popupwindow"
-				on:submit={() => toggleNewsletter() && window.open('https://buttondown.email/kataqatsi', 'popupwindow')}
+				on:submit={() =>
+					toggleNewsletter() && window.open('https://buttondown.email/kataqatsi', 'popupwindow')}
 			>
 				<input
 					type="email"
@@ -91,7 +92,7 @@
 				>
 			</form>
 			<p class="text-sm text-gray-800 dark:text-gray-200">
-				100+ subscribers including my newborn son! – <a href="/newsletter">10 issues</a>
+				100+ subscribers <a href="/newsletter">10 issues</a>
 			</p>
 		{/if}
 	</div>

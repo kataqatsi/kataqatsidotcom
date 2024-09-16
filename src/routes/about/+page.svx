@@ -1,6 +1,6 @@
 <img
 				class="w-[80px] rounded-full sm:w-[176px] relative mb-8 sm:mb-0 mr-auto bg-cyan-300 bg-opacity-25"
-				src="/pp.jpg" alt="kataqatsi in forest" 
+				src="/pp3.webp" alt="kataqatsi in forest" 
 		
 			/>
 <br>
@@ -21,4 +21,4 @@ to refer to a coding challenge that is done every so often keeps one's skills sh
 
 So together kataqatsi kinda means "life of continuous learning" or something of that nature.
 
-If you need software help you can contact me <a href="https://www.neqatsi.com/contact">here</a>
+If you need software help you can contact me <a href="https://cal.com/kataqatsi">here</a>

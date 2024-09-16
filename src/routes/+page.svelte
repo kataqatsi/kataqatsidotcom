@@ -11,7 +11,6 @@
 		MY_TWITTER_HANDLE
 	} from '$lib/siteConfig';
 
-
 	/** @type {import('./$types').PageData} */
 	export let data;
 	// technically this is a slighlty different type because doesnt have 'content' but we'll let it slide
@@ -37,16 +36,16 @@
 </svelte:head>
 
 <div
-	class="flex flex-col items-start justify-center max-w-2xl px-4 pb-16 mx-auto border-gray-200 dark:border-gray-700 sm:px-8"
+	class="mx-auto flex max-w-2xl flex-col items-start justify-center border-gray-200 px-4 pb-16 dark:border-gray-700 sm:px-8"
 >
 	<div class="flex flex-col-reverse items-start sm:flex-row">
-		<div class="flex flex-col pr-8 mb-16">
+		<div class="mb-16 flex flex-col pr-8">
 			<h1 class="mb-3 text-3xl font-bold tracking-tight text-black dark:text-white md:text-5xl">
-				David 
+				David
 				<span
-					class="relative inline-block ml-2 before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-red-500"
+					class="relative ml-2 inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-red-500"
 				>
-					<span class="relative text-yellow-400 skew-y-3">{SITE_TITLE}</span>
+					<span class="relative skew-y-3 text-yellow-400">{SITE_TITLE}</span>
 				</span>
 				Anderson
 			</h1>
@@ -54,20 +53,19 @@
 				Inventor, Technologist, Programmer
 			</h2>
 			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
-				I write code that does neat stuff.
-				Follow me as I learn in public!
-				Currently building <a href="https://involio.com">involio</a>.
+				I write code that does neat stuff. Follow me as I learn in public! Currently building <a
+					href="https://involio.com">involio</a
+				>.
 			</h2>
 			<p class="mb-16 text-gray-600 dark:text-gray-400">
 				<a href="/about">More on About page</a>
 			</p>
 		</div>
 		<img
-				class="w-[80px] rounded-full sm:w-[176px] relative mb-8 sm:mb-0 mr-auto bg-cyan-300 bg-opacity-25"
-				src="/pp.jpg" alt="kataqatsi in forest" 
-		
-			/>
-
+			class="relative mb-8 mr-auto w-[80px] rounded-full bg-cyan-300 bg-opacity-25 sm:mb-0 sm:w-[176px]"
+			src="/pp3.webp"
+			alt="kataqatsi in forest"
+		/>
 	</div>
 
 	<!-- <section class="w-full mb-16">
