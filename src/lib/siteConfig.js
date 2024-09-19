@@ -11,7 +11,7 @@ export const POST_CATEGORIES = ['Essay', 'Note']; // Other categories you can co
 export const GH_PUBLISHED_TAGS = ['Published'];
 
 // auto generated variables
-export const REPO_URL = 'https://github.com/' + GH_USER_REPO;
+export const REPO_URL = 'https://github.com/kataqatsi';
 export const REPO_OWNER = GH_USER_REPO.split('/')[0];
 
 // dont forget process.env.GH_TOKEN
