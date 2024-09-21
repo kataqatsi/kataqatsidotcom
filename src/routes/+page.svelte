@@ -53,9 +53,8 @@
 				Inventor, Technologist, Programmer
 			</h2>
 			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
-				I write code that does neat stuff. Currently building <a href="https://involio.com"
-					>involio</a
-				>.
+				I write code that does neat stuff.<br />Currently building
+				<a href="https://involio.com">involio</a>.
 			</h2>
 			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
 				If you need software help you can contact me <a href="https://cal.com/kataqatsi">here</a>
