@@ -92,7 +92,7 @@
 				>
 			</form>
 			<p class="text-sm text-gray-800 dark:text-gray-200">
-				100+ subscribers <a href="/newsletter">10 issues</a>
+				<!-- 100+ subscribers <a href="/newsletter">10 issues</a> -->
 			</p>
 		{/if}
 	</div>
