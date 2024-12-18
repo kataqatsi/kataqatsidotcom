@@ -65,7 +65,7 @@
 		{#if isNewsletterOpen}
 			<p class="my-1 text-gray-800 dark:text-gray-200">
 				Get free updates on <span class="font-bold"
-					>dev tools, productivity tips, emerging tech, and more</span
+					>xsxd, tech, and more</span
 				>—delivered straight to your inbox.
 			</p>
 
