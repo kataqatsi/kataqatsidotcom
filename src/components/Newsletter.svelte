@@ -26,7 +26,7 @@
 		class="my-4 w-full border-y border-blue-200 bg-blue-50 p-6 dark:border-gray-600 dark:bg-gray-800 sm:rounded sm:border-x"
 	>
 		<div class="flex items-center justify-between space-x-4 text-gray-900 dark:text-gray-100">
-			<p class="text-lg font-bold md:text-xl">Subscribe to the newsletter</p>
+			<p class="text-lg font-bold md:text-xl">Subscribe to My Free Newsletter</p>
 
 			<button
 				aria-label="Toggle Newsletter CTA"
@@ -64,9 +64,9 @@
 		</div>
 		{#if isNewsletterOpen}
 			<p class="my-1 text-gray-800 dark:text-gray-200">
-				Get emails from me about <span class="font-bold"
-					>dev tools, productivity hacks, new tech, etc</span
-				>.
+				Get free updates on <span class="font-bold"
+					>dev tools, productivity tips, emerging tech, and more</span
+				>—delivered straight to your inbox.
 			</p>
 
 			<form
