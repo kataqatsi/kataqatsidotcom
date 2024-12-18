@@ -5,19 +5,18 @@
 			/>
 <br>
 
-Hi my name is David, I go by <b>@kataqatsi</b> online.
+Hi, my name is David, I go by <b>@kataqatsi</b> online.
 
 I'm just an optimistic dude who likes to see goals come to life, usually through code.
 
-Currently based out of Phoenix, AZ.
+Currently, I'm based in Phoenix, AZ.
 
-Whats with the name <b>kataqatsi</b>?
+What's with the name <b>kataqatsi</b>?
 
-* <a href="https://en.wikipedia.org/wiki/Kata">kata</a> is a Japanese word (型 or 形) meaning "form".
-It refers to a detailed choreographed pattern of martial arts movements made to be practiced alone
-* kata is also <a href="https://github.com/gamontal/awesome-katas">used in programming</a>
-to refer to a coding challenge that is done every so often keeps one's skills sharp
-* The word <b>qatsi</b> is from the Native American Hopi language and it translates to "life"
+* <b>kata</b> is a Japanese word (型 or 形) meaning "form".
+It refers to a detailed choreographed pattern of <a href="https://en.wikipedia.org/wiki/Kata">martial arts movements</a> made to be practiced alone
+In programming, "kata" refers to <a href="https://github.com/gamontal/awesome-katas">coding exercises</a> done regularly to keep skills sharp.
+* <b>qatsi</b> is from the Native American Hopi language and it translates to "life"
 
 So together kataqatsi kinda means "life of continuous learning" or something of that nature.
 
