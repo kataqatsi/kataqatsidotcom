@@ -10,6 +10,7 @@
 		DEFAULT_OG_IMAGE,
 		MY_TWITTER_HANDLE
 	} from '$lib/siteConfig';
+	import WhackMoji from '../components/WhackMoji.svelte';
 
 	/** @type {import('./$types').PageData} */
 	export let data;
@@ -71,6 +72,8 @@
 	</div>
 
 	<Newsletter />
+
+	<WhackMoji />
 
 	<!-- <section class="w-full mb-16">
 		<h3 class="mb-6 text-2xl font-bold tracking-tight text-black dark:text-white md:text-4xl">
