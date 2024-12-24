@@ -53,18 +53,15 @@
 				Inventor, Technologist, Programmer
 			</h2>
 			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
-				ex: cto <a href="https://hello.involio.com/">involio</a>
+				former: cto <a href="https://hello.involio.com/">involio</a>
 				<br />
-				<br />Everyone has the next big idea for a startup. 
+				<br />Everyone has the next big idea for a startup.
 				<br />Not everyone can actually code it.
 				<br />I'm the guy who can build your startup from scratch.
 			</h2>
 			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
 				If you need software help you can contact me <a href="https://cal.com/kataqatsi">here</a>
 			</h2>
-			<p class="mb-16 text-gray-600 dark:text-gray-400">
-				<a href="/about">More on About page</a>
-			</p>
 		</div>
 		<img
 			class="relative mb-8 mr-auto w-[80px] rounded-full bg-cyan-300 bg-opacity-25 sm:mb-0 sm:w-[176px]"
@@ -72,6 +69,8 @@
 			alt="kataqatsi in forest"
 		/>
 	</div>
+
+	<Newsletter />
 
 	<!-- <section class="w-full mb-16">
 		<h3 class="mb-6 text-2xl font-bold tracking-tight text-black dark:text-white md:text-4xl">
@@ -89,6 +88,4 @@
 	</section> -->
 
 	<LatestPosts {items} />
-
-	<Newsletter />
 </div>

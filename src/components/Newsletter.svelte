@@ -5,7 +5,7 @@
 
 	const defaultValue = true;
 	const initialValue = browser
-		? (window.localStorage.getItem('isNewsletterOpen') ?? defaultValue)
+		? window.localStorage.getItem('isNewsletterOpen') ?? defaultValue
 		: defaultValue;
 
 	const isNewsletterOpen = writable(!!initialValue);
@@ -26,7 +26,7 @@
 		class="my-4 w-full border-y border-blue-200 bg-blue-50 p-6 dark:border-gray-600 dark:bg-gray-800 sm:rounded sm:border-x"
 	>
 		<div class="flex items-center justify-between space-x-4 text-gray-900 dark:text-gray-100">
-			<p class="text-lg font-bold md:text-xl">Subscribe to My Free Newsletter</p>
+			<p class="text-lg font-bold md:text-xl">Subscribe for access to kataqatsi newsletter</p>
 
 			<button
 				aria-label="Toggle Newsletter CTA"
@@ -64,9 +64,7 @@
 		</div>
 		{#if isNewsletterOpen}
 			<p class="my-1 text-gray-800 dark:text-gray-200">
-				Get free updates on <span class="font-bold"
-					>xsxd, tech, and more</span
-				>—delivered straight to your inbox.
+				Get free updates on <span class="font-bold">x startups in x days, tech, and more...</span>
 			</p>
 
 			<form
@@ -82,7 +80,7 @@
 					id="bd-email"
 					name="email"
 					aria-label="Email for newsletter"
-					placeholder="elon@tesla.com"
+					placeholder="Enter your email"
 					autocomplete="email"
 					required={true}
 					class="mt-1 block w-full rounded-md border-gray-300 bg-white px-4 py-2 pr-32 text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:bg-gray-800 dark:text-gray-100"
