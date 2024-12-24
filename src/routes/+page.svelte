@@ -54,7 +54,7 @@
 			</h2>
 			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
 				I write code that does neat stuff.
-				<br />Currently building <a href="https://hello.involio.com/">involio</a>.
+				<br />ex: CTO <a href="https://hello.involio.com/">involio</a>.
 			</h2>
 			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
 				If you need software help you can contact me <a href="https://cal.com/kataqatsi">here</a>
