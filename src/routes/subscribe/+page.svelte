@@ -36,28 +36,80 @@
 		>
 	</p>
 	<div class="mytext mb-8">
-		<p class="text-base font-light text-opacity-75">
-			Join <span
-				class="bg-gradient-to-br from-pink-400 to-red-600 bg-clip-text font-extrabold text-transparent"
-				>100+</span
-			> developers getting mediocre content before I publish!
-		</p>
 		<Newsletter />
 	</div>
 	<p>
 		<a class="no-underline" href="https://kataqatsi.com/subscribe"
 			><span
 				class="ml-2 bg-gradient-to-br from-pink-400 to-red-600 bg-clip-text text-xl font-extrabold uppercase text-transparent"
-				>Support my work</span
+				>Support my work by donating</span
 			></a
 		>
 	</p>
 	<p>
-		<a href={`https://ko-fi.com/kataqatsi`} target="_blank" rel="noopener noreferrer">
-			<img src="https://www.ko-fi.com/img/githubbutton_sm.svg" alt="Buy Me a Coffee at ko-fi.com" />
+		<a href={`https://ko-fi.com/kataqatsi`} class="donate-button" role="button" aria-label="Donate Now">
+			Donate Now
 		</a>
 	</p>
 </article>
 
 <style>
+        .donate-button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            background-color: #ff3333;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            animation: pulse 2s infinite, colorChange 10s infinite;
+            box-shadow: 0 0 20px rgba(255, 51, 51, 0.5);
+        }
+
+        .donate-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 30px rgba(255, 51, 51, 0.8);
+        }
+
+        .donate-button:active {
+            transform: scale(0.95);
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        @keyframes colorChange {
+            0% { background-color: #ff3333; }
+            25% { background-color: #ff6b33; }
+            50% { background-color: #ff33a1; }
+            75% { background-color: #3369ff; }
+            100% { background-color: #ff3333; }
+        }
+
+        .donate-button::before {
+            content: '❤';
+            margin-right: 10px;
+            font-size: 28px;
+            animation: heartbeat 1s infinite;
+        }
+
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
 </style>
