@@ -73,7 +73,9 @@
 
 	<Newsletter />
 
-	<WhackMoji />
+	<div class="flex w-full justify-center gap-4">
+		<WhackMoji />
+	</div>
 
 	<!-- <section class="w-full mb-16">
 		<h3 class="mb-6 text-2xl font-bold tracking-tight text-black dark:text-white md:text-4xl">

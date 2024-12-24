@@ -21,11 +21,11 @@
 	});
 </script>
 
-<canvas bind:this={canvas} width="400" height="400" />
+<canvas bind:this={canvas} width="375" height="375" />
 
 <style>
 	canvas {
-		width: 400px;
-		height: 400px;
+		width: 375px;
+		height: 375px;
 	}
 </style>
