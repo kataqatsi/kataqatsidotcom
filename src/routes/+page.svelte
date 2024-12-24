@@ -55,6 +55,12 @@
 			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
 				ex: cto <a href="https://hello.involio.com/">involio</a>.
 				<br />
+				<br /><b>Haiku Pitch:</b>
+				<br />Visions spark and fade,
+				<br />Few can shape them into code—
+				<br />I build dreams from scratch.
+				<br />
+				<br /><b>The More Direct Version:</b>
 				<br />Everyone has the next big idea for a startup. 
 				<br />Not everyone can actually code it.
 				<br />I'm the guy who can build your startup from scratch.
