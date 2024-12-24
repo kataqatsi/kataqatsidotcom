@@ -53,10 +53,10 @@
 				Inventor, Technologist, Programmer
 			</h2>
 			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
-				ex: CTO <a href="https://hello.involio.com/">involio</a>.
-				<br />Everyone has the next big idea for a startup. Not everyone can actually code it.
+				ex: cto <a href="https://hello.involio.com/">involio</a>.
+				<br />Everyone has the next big idea for a startup. 
+				<br />Not everyone can actually code it.
 				<br />I'm the guy who can build your startup from scratch.
-				<br />I write scalable, well-architected codebases and automate the tedious tasks, so your startup can grow smoothly. When the time comes to expand your tech team, they’ll step into a solid foundation ready for the next level.
 			</h2>
 			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
 				If you need software help you can contact me <a href="https://cal.com/kataqatsi">here</a>
