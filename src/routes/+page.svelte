@@ -11,12 +11,35 @@
 		MY_TWITTER_HANDLE
 	} from '$lib/siteConfig';
 	import WhackMoji from '../components/WhackMoji.svelte';
+	import WhackMojiLight from '../components/WhackMojiLight.svelte';
+	import { onMount } from 'svelte';
 
 	/** @type {import('./$types').PageData} */
 	export let data;
-	// technically this is a slighlty different type because doesnt have 'content' but we'll let it slide
 	/** @type {import('$lib/types').ContentItem[]} */
 	$: items = data.items;
+
+	let isDarkMode = false;
+	onMount(() => {
+		// Initial check
+		isDarkMode = document.documentElement.classList.contains('dark');
+
+		// Create a mutation observer to watch for class changes on documentElement
+		const observer = new MutationObserver((mutations) => {
+			mutations.forEach((mutation) => {
+				if (mutation.attributeName === 'class') {
+					isDarkMode = document.documentElement.classList.contains('dark');
+				}
+			});
+		});
+
+		observer.observe(document.documentElement, {
+			attributes: true,
+			attributeFilter: ['class']
+		});
+
+		return () => observer.disconnect();
+	});
 </script>
 
 <svelte:head>
@@ -74,7 +97,11 @@
 	<Newsletter />
 
 	<div class="flex w-full justify-center gap-4">
-		<WhackMoji />
+		{#if isDarkMode}
+			<WhackMoji />
+		{:else}
+			<WhackMojiLight />
+		{/if}
 	</div>
 
 	<!-- <section class="w-full mb-16">
