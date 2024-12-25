@@ -23,12 +23,14 @@
 
 <section class="mb-0 w-full" id="newsletter">
 	<div
-		class="my-4 w-full border-y border-blue-200 bg-blue-50 p-6 dark:border-gray-600 dark:bg-gray-800 sm:rounded sm:border-x"
+		class="my-4 border-y border-blue-200 bg-blue-50 p-4 dark:border-gray-600 dark:bg-gray-800 sm:rounded sm:border-x sm:p-6"
 	>
-		<div class="flex items-center justify-between space-x-4 text-gray-900 dark:text-gray-100">
-			<p class="text-lg font-bold md:text-xl">Subscribe for access to kataqatsi newsletter</p>
+		<div class="flex flex-wrap items-center justify-between gap-2 text-gray-900 dark:text-gray-100">
+			<p class="text-base font-bold sm:text-lg md:text-xl">
+				Subscribe for access to kataqatsi newsletter
+			</p>
 
-			<button
+			<!-- <button
 				aria-label="Toggle Newsletter CTA"
 				class="flex h-9 w-9 items-center justify-center rounded-lg ring-gray-300 transition-all hover:ring-2"
 				on:click={toggleNewsletter}
@@ -60,7 +62,7 @@
 						/>
 					</svg>
 				{/if}
-			</button>
+			</button> -->
 		</div>
 		{#if isNewsletterOpen}
 			<p class="my-1 text-gray-800 dark:text-gray-200">

@@ -60,7 +60,7 @@
 </svelte:head>
 
 <div
-	class="mx-auto flex max-w-2xl flex-col items-start justify-center border-gray-200 px-4 pb-16 dark:border-gray-700 sm:px-8"
+	class="mx-auto flex w-screen max-w-2xl flex-col items-start justify-center border-gray-200 pb-16 dark:border-gray-700"
 >
 	<div class="flex flex-col-reverse items-start sm:flex-row">
 		<div class="mb-16 flex flex-col pr-8">
@@ -94,7 +94,9 @@
 		/>
 	</div>
 
-	<Newsletter />
+	<div class="flex w-full justify-center">
+		<Newsletter />
+	</div>
 
 	<div class="flex w-full justify-center gap-4">
 		{#if isDarkMode}

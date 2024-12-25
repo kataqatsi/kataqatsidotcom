@@ -1,7 +1,7 @@
 <script>
-  /**
-   * @type {import('$lib/types').ContentItem[]}
-   */
+	/**
+	 * @type {import('$lib/types').ContentItem[]}
+	 */
 	export let items;
 </script>
 
@@ -14,8 +14,10 @@
 	</h3>
 	<ul class="space-y-2 text-white">
 		{#each items as item (item.slug)}
-			<li>
-				<a class="font-bold" data-sveltekit-preload-data href={item.slug}>{item.title}</a>
+			<li class="flex flex-wrap items-baseline gap-2">
+				<a class="max-w-[80%] truncate font-bold" data-sveltekit-preload-data href={item.slug}
+					>{item.title}</a
+				>
 				<span class="hidden text-xs text-black dark:text-gray-400 sm:inline"
 					>{new Date(item.date).toISOString().slice(0, 10)}</span
 				>
