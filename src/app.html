@@ -30,8 +30,9 @@
 	%sveltekit.head%
 </head>
 
-<body class="vsc-initialized bg-white text-white dark:bg-gray-900 dark:text-black" data-sveltekit-preload-data="hover">
-	<div id="svelte">%sveltekit.body%</div>
+<body class="vsc-initialized bg-white text-white dark:bg-gray-900 dark:text-black overflow-x-hidden max-w-full"
+	data-sveltekit-preload-data="hover">
+	<div id="svelte" class="w-full overflow-x-hidden">%sveltekit.body%</div>
 </body>
 
 </html>
