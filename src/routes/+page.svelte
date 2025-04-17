@@ -74,14 +74,15 @@
 				Anderson
 			</h1>
 			<h2 id="bio" class="mb-4 italic text-gray-700 dark:text-gray-200">
-				Inventor, Technologist, Programmer
+				Values-First, Inventor, Programmer
 			</h2>
 			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
 				former: cto <a href="https://hello.involio.com/">involio</a>
 				<br />
 				<br />Everyone has the next big idea for a startup.
 				<br />Not everyone can actually code it.
-				<br />I'm the guy who can build your startup from scratch.
+				<br />Also it's hard to trust people nowadays.
+				<br />I'm the dependable guy you can trust to build your startup from scratch.
 			</h2>
 			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
 				If you need software help you can contact me <a href="https://cal.com/kataqatsi">here</a>

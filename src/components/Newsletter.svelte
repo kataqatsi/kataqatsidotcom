@@ -66,7 +66,7 @@
 		</div>
 		{#if isNewsletterOpen}
 			<p class="my-1 text-gray-800 dark:text-gray-200">
-				Get free updates on <span class="font-bold">x startups in x days, tech, and more...</span>
+				Get free updates on <span class="font-bold">random stuff I learn about...</span>
 			</p>
 
 			<form
