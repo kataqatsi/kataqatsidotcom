@@ -10,8 +10,6 @@
 		DEFAULT_OG_IMAGE,
 		MY_TWITTER_HANDLE
 	} from '$lib/siteConfig';
-	import WhackMoji from '../components/WhackMoji.svelte';
-	import WhackMojiLight from '../components/WhackMojiLight.svelte';
 	import { onMount } from 'svelte';
 
 	/** @type {import('./$types').PageData} */
@@ -97,14 +95,6 @@
 
 	<div class="flex w-full justify-center">
 		<Newsletter />
-	</div>
-
-	<div class="flex w-full justify-center gap-4">
-		{#if isDarkMode}
-			<WhackMoji />
-		{:else}
-			<WhackMojiLight />
-		{/if}
 	</div>
 
 	<!-- <section class="w-full mb-16">
